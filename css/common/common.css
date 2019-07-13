@@ -1,0 +1,2390 @@
+/* -----------css for top end-----------  */
+.topHeaderSectionUl {
+	list-style: none;
+	padding-left: 0.9375rem;
+}
+
+.topHeaderPanelList {
+	font-family: Roboto;
+	font-style: normal;
+	line-height: normal;
+	color: #174687;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-top: 0.9375rem;
+	padding-right: 1.875rem;
+	padding-left: 0.6875rem;
+	text-transform: uppercase !important;
+}
+
+.insideTopHeaderSection {
+	border-bottom: 0.0625rem solid #E5E5E5;
+	height: 3.063rem;
+}
+
+.topHeaderPanelListLink:hover {
+	border-bottom: 0.125rem solid #005FDF;;
+	padding-bottom: 0.8rem;
+}
+
+.topHeaderPanelListLink {
+	color: #174687 !important;
+	text-decoration: none !important;
+}
+/*   -----------css for all panel-----------    */
+.panels {
+	height: calc(100vh - 7.5rem);
+	margin-left: 0.031rem;
+}
+
+/*   -----------css for left panel-----------    */
+.leftPanel {
+	background-color: #005FDF;
+	max-width: 3.125rem;
+}
+
+.icon-style {
+	color: #FFFFFF;
+	padding-bottom: 1.5rem;
+	cursor: pointer;
+}
+
+.iconsList {
+	padding-top: 1.1rem;
+	max-width: 3.75rem;
+}
+
+/*   ----------- css for fund summary ----------    */
+.fund-summary-nav {
+	padding-top: 1.063rem;
+	padding-left: 0.8125rem;
+}
+
+.fund-summary-nav-up {
+	float: right;
+	clear: right;
+	color: #4F4F4F;
+}
+
+.fund-summary-nav-down {
+	float: right;
+	clear: right;
+	color: #4F4F4F;
+}
+
+/*   -----------css for middle panel-----------    */
+.middlePanel {
+	padding-left: 0rem;
+	padding-right: 0rem;
+	background-color: #333333;
+}
+
+.docNav {
+	border-bottom: 0.125rem solid #2B2B2B;
+	padding-bottom: 0.1875rem;
+	display: flex;
+}
+
+.insidedocNav-icon:hover {
+	color: white;
+}
+
+.insidedocNavUpIcon {
+	padding-top: 0.5rem;
+}
+
+/* .insidedocNavIcon {
+	padding-left: 3.125rem;
+}
+ */
+.insidedocNavDownIcon {
+	margin-top: -0.375rem;
+}
+
+.insidedocNav {
+	padding-left: 0.625rem;
+	padding-top: 0.9375rem;
+	text-transform: uppercase !important;
+	font-family: Roboto;
+	font-style: normal;
+	line-height: normal;
+	font-size: 0.71rem;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 12.5rem;
+}
+
+.insidedocNav-icon {
+	font-size: 1.125rem;
+	color: #828282;
+	cursor: pointer;
+}
+
+.tblContentLabel {
+	padding-left: 0.8rem;
+	padding-top: 1rem;
+	text-transform: uppercase !important;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.custom-input {
+	height: 1.375rem;
+	background-color: #2B2B2B !important;
+	border-radius: 0.25rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #4F4F4F;
+	color: white !important;
+}
+
+.search-content {
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.tblContentSearch {
+	padding-left: 0.7rem;
+	padding-right: 0.8rem;
+	padding-top: 0.25rem;
+}
+
+.list-group-item custom-li {
+	line-height: 0.0 .3125rem;
+}
+
+.fancytree-plain {
+	background-color: #333333;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+}
+
+.fancytree-title {
+	color: white;
+}
+
+ul.fancytree-container {
+	border: none !important;
+	list-style: none !important;
+	margin-left: -1.25rem;
+}
+
+ul.fancytree-container li {
+	list-style: none !important;
+	padding-top: 0.9375rem !important;
+}
+
+/* .doc-tree-icon {
+	padding-left: 96px;
+	padding-top: 0rem;
+	line-height: 0.65;
+	color: #828282;
+} */
+#tree ul li {
+	cursor: pointer;
+}
+
+#tree ul {
+	padding-left: 1.25rem;
+}
+
+.doc-parent:hover {
+	border: 1px solid;
+}
+
+.fancytree-plain span.fancytree-title {
+	background-color: transparent !important;
+}
+
+.ui-fancytree li span:hover {
+	color: #2f80ed !important;
+}
+
+.ui-fancytree:focus {
+	outline: none;
+}
+
+.doc-refchild {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.6875rem;
+	color: #40C7AB;
+}
+
+.doc-child {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.6875rem;
+	color: #FFFFFF;
+}
+
+.dot-grp {
+	margin-left: -1rem;
+}
+
+.blue-dot {
+	height: 0.375rem;
+	width: 0.375rem;
+	background-color: #2F80ED;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.3125rem;
+	margin-bottom: 0.125rem;
+}
+
+.grey-dot {
+	height: 0.375rem;
+	width: 0.375rem;
+	background-color: #828282;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.3125rem;
+	margin-bottom: 0.125rem;
+}
+
+.yellow-dot {
+	height: 0.375rem;
+	width: 0.375rem;
+	background-color: #F2C94C;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+}
+
+.red-dot {
+	height: 0.375rem;
+	width: 0.375rem;
+	background-color: #EB5757;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+}
+
+.un-resolved-dot {
+	height: 0.5rem;
+	width: 0.5rem;
+	background-color: #F2C94C;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.3125rem;
+	margin-bottom: 0.125rem;
+}
+
+.expired-dot {
+	height: 0.5rem;
+	width: 0.5rem;
+	background-color: #EB5757;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: -1.325rem;
+	margin-bottom: 0.125rem;
+	margin-right: 0.3125rem;
+}
+
+.version-dot {
+	height: 0.5rem;
+	width: 0.5rem;
+	background-color: #2F80ED;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.3125rem;
+	margin-bottom: 0.125rem;
+}
+
+.doc-refparent {
+	background: #2FB195;
+	color: #FFFFFF;
+	min-width: 13.94rem;
+	padding-right: 0.5625rem;
+	padding-top: 0.75rem;
+	height: 2.5rem;
+	padding-left: 0.9375rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	display: inline-block;
+	padding-top: 0.75rem;
+}
+
+.doc-parent {
+	background: #3E3E3E;
+	color: #FFFFFF;
+	min-width: 13.94rem;
+	padding-right: 0.5625rem;
+	padding-top: 0.75rem;
+	height: 2.5rem;
+	padding-left: 0.9375rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	display: inline-block;
+	padding-top: 0.625rem;
+}
+
+.doc-tree-icon {
+	line-height: 0.65;
+	color: #828282;
+	VERTICAL-ALIGN: MIDDLE;
+	float: right;
+}
+
+.parent-docname {
+	float: left;
+}
+
+.parent-refdocname {
+	float: left;
+}
+
+.indicator-grp {
+	padding-top: 0.6875rem;
+}
+
+.yellow-indicator {
+	width: 0.3125rem;
+	height: 0.875rem;
+	background-color: #F2C94C;
+	border-radius: 0.3125rem;
+	display: inline-block;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+	padding-left: 0.3125rem;
+}
+
+.red-indicator {
+	width: 0.3125rem;
+	height: 0.875rem;
+	background-color: #EB5757;
+	border-radius: 0.3125rem;
+	display: inline-block;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+	padding-left: 0.3125rem;
+}
+
+.blue-indicator {
+	width: 0.3125rem;
+	height: 0.875rem;
+	background-color: #2F80ED;
+	border-radius: 0.3125rem;
+	display: inline-block;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+	padding-left: 0.3125rem;
+}
+
+.ind-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.6625rem;
+	letter-spacing: 0.01em;
+	color: #ffffff;
+	margin-right: 1.25rem;
+	margin-top: 0.0625rem;
+}
+
+.tooltiptext {
+	background-color: #333333 !important;
+}
+
+/*   -----------css for scrollbar-----------    */
+.scrollbar {
+	overflow: auto;
+	width: 98%;
+	height: auto;
+	position: absolute;
+	max-height: calc(100vh - 15.63rem);
+	min-height: 15.63rem;
+	overflow-x: hidden;
+	margin-left: -0.375rem;
+}
+
+.scrollbarCompTbl {
+	overflow: auto;
+	width: 96.5%;
+	height: auto;
+	padding-left: 0.125rem;
+	position: absolute;
+	max-height: calc(100vh - 17rem);
+	min-height: 15.63rem;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.scrollbarCompTblScrollUp {
+	/* 	overflow: auto;
+	width: 96.5%;
+	height: auto;
+	padding-left: 0.125rem;
+	position: absolute; */
+	max-height: calc(100vh - 12rem) !important;
+	/* min-height: 15.63rem;
+	overflow-x: hidden;
+	scroll-behavior: smooth; */
+}
+
+.scrollbarCompTbl-toggle {
+	overflow: auto;
+	width: 97.2%;
+	height: auto;
+	position: absolute;
+	max-height: calc(100vh - 17rem);
+	min-height: 15.63rem;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+.scrollbar-deep-purple::-webkit-scrollbar-track {
+	/* 	-webkit-box-shadow: inset 0 0 0.375rem rgba(0, 0, 0, 0.1); */
+	/* background-color: #F5F5F5; */
+	border-radius: 0.625rem;
+}
+
+.scrollbar-deep-purple::-webkit-scrollbar {
+	width: 0.75rem;
+	background-color: #F5F5F5;
+}
+
+.scrollbar-deep-purple::-webkit-scrollbar-thumb {
+	border-radius: 0.625rem;
+	-webkit-box-shadow: inset 0 0 0.3125rem rgba(0, 0, 0, 0.1);
+	background-color: #beb9ca;
+}
+
+.bordered-deep-purple::-webkit-scrollbar-track {
+	-webkit-box-shadow: none;
+	/* border: 0.0625rem solid #512da8; */
+}
+
+.bordered-deep-purple::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: none;
+}
+
+.thin::-webkit-scrollbar {
+	width: 0.2925rem;
+	border-radius: 0.625rem;
+}
+
+/*   -----------css for document link, document name and client info-----------    */
+.sub_options {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #2F80ED;
+	padding-top: 0.6875rem;
+	padding-left: 5.938rem;
+}
+
+#menu_icon {
+	max-width: 1.5rem;
+	padding-left: 1.875rem;
+}
+
+#fav_icon {
+	max-width: 3rem;
+	padding-left: 1.5rem;
+}
+
+.dname {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 550;
+	line-height: normal;
+	font-size: 1rem;
+	color: #2F80ED;
+	width: 32.31rem;
+	height: 1.5rem;
+	padding-top: 0.3125rem;
+}
+
+#local_info {
+	width: auto;
+	color: red;
+}
+
+#doc_status {
+	width: 5.425rem;
+	height: 1.4rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.715rem;
+	color: #FFFFFF;
+	border-color: snow;
+	background: #2F80ED;
+	border-radius: 0.425rem;
+	padding-top: 3px;
+	padding-left: 0.4875rem;
+	outline: none;
+}
+
+.docStatusDropDownMenu {
+	background: #ffffff;
+}
+
+#doc_status::after, #doc_status::before {
+	border: none;
+}
+
+.docStatusDropDownMenu .dropdown-item {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	line-height: normal;
+	color: #2F80ED;
+	cursor: pointer;
+}
+
+.docStatusDropDownMenu .dropdown-item:active {
+	color: #fff !important;
+}
+
+.docStatus {
+	padding-top: 0.175rem;
+	padding-left: 1rem;
+}
+
+.docStatus:after {
+	content: '<>';
+	font: 11px "Consolas", monospace;
+	color: #ffffff;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 17px;
+	/*Adjust for position however you want*/
+	top: 7px;
+	padding: 0px 0px 0px 1px;
+	position: absolute;
+	pointer-events: none;
+}
+
+.docStatus select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	float: right;
+	margin: 3px 0px -2px 0px;
+	padding: 0px 14px;
+	font-size: 11px;
+	line-height: 1.75;
+	color: #ffffff;
+	background-color: #333333;
+	background-image: none;
+	/* border: 1px solid #cccccc; */
+	-ms-word-break: normal;
+	word-break: normal;
+	border: none;
+	outline: 0;
+}
+
+#logo {
+	width: 6.4rem;
+	padding-left: 0.0625rem;
+}
+
+#client_name {
+	height: 1.688rem;
+	width: 14rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 0.75rem;
+}
+
+#client_logo {
+	padding-left: 1.875rem;
+}
+
+.right_side_clientinfo {
+	margin-left: 5rem;
+	padding-left: 0.625rem;
+}
+
+.sub_option_bar {
+	margin-bottom: 1rem;
+}
+
+#circle_button {
+	width: 1.875rem;
+	height: 1.875rem;
+	border-radius: 1.875rem;
+	background-color: grey;
+}
+
+#client_info {
+	padding-right: 0.9375rem;
+}
+
+.cricle {
+	padding-right: 1rem;
+}
+
+.cricle-icon {
+	background-color: #E0E0E0;
+	color: #E0E0E0;
+	border-radius: 0.9375rem;
+}
+.cricle-notify {
+	background-color: #40C7AB;;	
+	border-radius: 0.9375rem;	
+	margin-right: 7px;
+}
+.notifyIcon-notifictn{
+	display: flex;
+}
+.notifyIcon{
+	font-size: 16px;
+	color: #40C7AB;
+}
+.notify-title{
+	padding-top: 1px;
+}
+.container-fluid {
+	overflow: hidden;
+	padding-left: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+/* .horizontal-rule {
+	color: blue;
+} */
+.fund-name {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1.125rem;
+	color: #2B2B2B;
+}
+
+.xbrl-tag {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 0.0625rem;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.xbrl {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.context {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.funds {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.xbrl-tag-details {
+	padding-left: 18rem;
+	line-height: 0rem;
+	padding-top: 1.938rem;
+}
+
+.xbrl-tag-details-toggle {
+	padding-left: 32.358rem;
+	line-height: 0rem;
+	padding-top: 1.938rem;
+}
+
+.xbrl-tag-info {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.75rem;
+	color: #BC9AFA;
+	padding-top: 0.875rem;
+}
+
+.category-details {
+	padding-left: 1.5rem;
+	line-height: 0rem;
+	padding-top: 1.938rem;
+}
+
+.category {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 0.0625rem;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.category-info {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.75rem;
+	color: #2D9CDB;
+	padding-top: 0.875rem;
+}
+
+.fund-details {
+	padding-left: 1.5rem;
+	line-height: 0rem;
+	padding-top: 1.938rem;
+}
+
+.fund {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 0.0625rem;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.fund-info {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.75rem;
+	color: #40C7AB;
+	padding-top: 0.875rem;
+}
+
+.component-detail {
+	padding-top: 1.688rem;
+	padding-left: 3rem;
+}
+
+.comp-type {
+	border-radius: 0.9375rem;
+	background: #C4C4C4;
+	padding: 0.3125rem;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+
+.unresolved {
+	border: none;
+	border-radius: 0.9375rem;
+	background: #F2C94C;;
+	padding: 0.3125rem;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+
+.expired {
+	border: none;
+	border-radius: 0.9375rem;
+	background: #EB5757;;
+	padding: 0.3125rem;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+
+.new {
+	border: none;
+	border-radius: 0.9375rem;
+	background: #2F80ED;
+	padding: 0.3125rem;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+
+/*   css for Right panel    */
+.rightpanel {
+	border-top: 0.125rem solid #005FDF;
+	padding-left: 0rem;
+}
+
+.fund-summary {
+	display: flex;
+	height: 5.5rem;
+	border-bottom: 0.125rem solid #E0E0E0;
+}
+
+.content-search {
+	padding-left: 1.25rem;
+	margin-top: 0.625rem;
+}
+
+.input-width {
+	height: 1.875rem;
+	width: 33.313rem;
+	float: left;
+	background: #FFFFFF;
+	border: 0.0625rem solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.input-width-toggle {
+	height: 1.875rem;
+	width: 47.7rem;
+	float: left;
+	background: #FFFFFF;
+	border: 0.0625rem solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.viewTypeName {
+	color: #828282;
+	font-size: 0.75rem;
+	ont-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	padding-right: 0.3125rem;
+	line-height: normal;
+	cursor: pointer;
+}
+
+.viewIcon {
+	color: #828282;
+	font-size: 1.25rem;
+}
+
+#viewDropDown {
+	-webkit-appearance: none;
+	color: #828282;
+	font-size: 0.75rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	padding-right: 1.3125rem;
+	cursor: pointer;
+	border: none;
+	background:
+		url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+		no-repeat right;
+	background-size: 11px;
+}
+
+#viewDropDown::before, #viewDropDown::after {
+	border: none;
+}
+
+.viewDropDown:focus {
+	outline: none;
+}
+
+.viewDropDown-item {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	line-height: normal;
+	color: #2F80ED;
+	cursor: pointer;
+}
+
+.viewDropDownMenu {
+	width: 160px;
+	height: 52px;
+	background: #f1f1f1;
+	margin-left: -3px;
+	border-radius: 2px;
+	padding-top: 3.5px;
+}
+
+.compactViewOption {
+	color: #828282;
+	font-size: 0.75rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.fullViewOption {
+	color: #828282;
+	font-size: 0.75rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.arrowIcon {
+	color: #828282;
+	font-size: 1.25rem;
+}
+
+.viewStreamIcon {
+	padding-top: 0.285rem;
+}
+
+.arrowDownIcon {
+	padding-right: 0.3125rem;
+}
+
+.viewType {
+	display: flex;
+	float: right;
+	padding-top: 0.4375rem;
+	padding-right: 0.625rem;
+}
+
+.scrollBarIcon {
+	max-width: 4rem;
+	border-left: 0.0625rem solid #bbb5b5;
+	padding-left: 0.625rem;
+	height: calc(100vh - 13.4rem);
+}
+
+.scrollBarIconScrollUp {
+	/* 	max-width: 4rem;
+	border-left: 0.0625rem solid #bbb5b5;
+	padding-left: 0.625rem; */
+	height: calc(100vh - 7.6rem);
+}
+
+.componentTbl {
+	height: calc(100vh - 13.4rem);
+}
+
+.menuIcon {
+	padding-top: 0.3125rem;
+	padding-left: 0.125rem;
+	padding-bottom: 0.1875rem;
+	cursor: pointer;
+}
+
+#paginacao li {
+	margin: 0 0 0.625rem 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #828282;
+}
+
+.drag {
+	border-radius: 0.125rem;
+	border: 0.0625rem solid lightblue;
+	font-size: 0.75rem;
+	padding: 0.625rem;
+}
+
+#cart {
+	font-size: 1.188rem;
+	padding-top: 0.9375rem;
+	padding-left: 0.125rem
+}
+
+.scrollBarIcon-split {
+	border-left: 0.0625rem solid #bbb5b5;
+	/* padding-left: 8.125rem; */
+	height: calc(100vh - 13.4rem);
+}
+
+.scrollBarIcon-splitScrollUp {
+	height: calc(100vh - 7.6rem);
+	/* border-left: 0.0625rem solid #bbb5b5; */
+	/* padding-left: 8.125rem; */
+	/*   max-width: none; */
+	/*    padding-left */
+}
+
+#fav {
+	font-size: 1.188rem;
+	padding-left: 0.125rem;
+	padding-top: 0.25rem;
+}
+
+.pagination {
+	display: block;
+	background: #E0E0E0;
+	border-radius: 0.9375rem;
+	width: 1.563rem;
+	padding: 1.25rem 0rem 1.25rem 0.4375rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #828282;
+	/* height: 15.63rem; */
+	height: calc(100vh - 22.81rem)
+}
+
+.paginationDiv {
+	float: left;
+	width: 1.563rem;
+	padding-top: 0.9375rem;
+}
+
+.downDirectnIcon {
+	font-size: 0.9375rem;
+	padding-left: 0.1875rem;
+	font-weight: bold;
+}
+
+.table-header {
+	font-size: 0.75rem !important;
+	border-bottom: 0.1875rem solid black;
+}
+
+#componentTable {
+	width: 98% !important;
+}
+
+#componentTable tbody tr {
+	font-size: 0.75rem;
+	/* border-top: 0.0625rem solid #BDBDBD !important; */
+}
+
+.indicator-icon-expire {
+	border-radius: 0.3125rem;
+	background: #EB5757;
+	width: 0.3125rem;
+	height: 0.875rem;
+	border: none;
+}
+
+.indicator-icon-unresolved {
+	border-radius: 0.3125rem;
+	background: #F2C94C;
+	width: 0.3125rem;
+	height: 0.875rem;
+	border: none;
+}
+
+.indicator-icon-new {
+	border-radius: 0.3125rem;
+	background: #2F80ED;
+	width: 0.3125rem;
+	height: 0.875rem;
+	border: none;
+}
+
+.compStatusIndicator {
+	padding-right: 0.25rem;
+}
+/*------ css for compact view table ------*/
+#componentTable, tbody, tr, td {
+	/* border-bottom: 0.0625rem solid #BDBDBD; */
+	/* border-collapse: separate; */
+	border-spacing: 0 0.3125rem;
+	/* background: #FFFFFF; */
+	height: 20px !important;
+	box-sizing: border-box;
+	border-radius: 0.125rem;
+	padding-left: 0.15rem;
+
+	/* 	border-top: 0.0625rem solid #BDBDBD !important; */
+}
+
+.componentTable-td {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+	border-top: 0.0625rem solid #BDBDBD !important;
+	border-bottom: 0.0625rem solid #BDBDBD !important;
+	width: 7.75rem;
+}
+
+.componentTable-td-toggle {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+	border-top: 0.0625rem solid #BDBDBD !important;
+	border-bottom: 0.0625rem solid #BDBDBD !important;
+	width: 10rem;
+}
+
+.table-container {
+	padding-top: 3rem;
+	padding-left: 1rem;
+}
+
+.comptbl {
+	width: 98.5%;
+	padding-left: 1rem;
+}
+
+.comptbl-toggle {
+	width: 98.8%;
+}
+
+.componentTable-tr:hover {
+	outline: 0.0625rem solid #146fe9 !important;
+	padding: 0rem;
+	border-collapse: collapse;
+}
+
+#componentTable tbody tr td:first-child {
+	border-left: 0.0625rem solid #BDBDBD;
+}
+
+#componentTable tbody tr td:last-child {
+	border-right: 0.0625rem solid #BDBDBD;
+}
+
+.table-header-th {
+	border-bottom: 0.125rem solid black !important;
+	border-top: none !important;
+	border-spacing: 0 0.3125rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #000000 !important;
+	width: 10rem;
+}
+
+.componentTable-body {
+	padding-top: 0.625rem;
+}
+
+.document-href {
+	color: #2F80ED;
+}
+
+.proofs-href {
+	color: #828282;
+}
+
+.eproofs-href {
+	color: #828282;
+}
+
+.edit-href {
+	color: #828282;
+}
+
+.comp-name {
+	color: #005FDF;
+	padding-left: 0.6875rem
+}
+
+/* .attached {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+} */
+.topIcon {
+	cursor: pointer;
+}
+
+.topIcon-star {
+	color: #005FDF;
+	padding-top: 0.0625rem;
+	padding-left: 0.5rem;
+	font-size: 1.438rem;
+	cursor: pointer;
+}
+/*-------- css for full view component table ---------*/
+.compDetails-fullView {
+	background: #FFFFFF;
+	border: 0.0625rem solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0.3125rem;
+	margin-bottom: 0.5rem;
+}
+
+.insideComp-full-details {
+	padding-top: 0.9375rem;
+	padding-left: 2.5rem;
+	padding-right: 13.75rem;
+	max-width: 58rem;
+}
+
+.insideCompBottomIcon {
+	padding-top: 0.9375rem;
+	padding-left: 3.75rem;
+}
+
+.edit-option {
+	padding-left: 46rem;
+	display: flex;
+	margin-top: -1.188rem;
+	padding-bottom: 0.625rem;
+}
+
+.edit-option-toggle {
+	padding-left: 35rem;
+	display: flex;
+	margin-top: -1.188rem;
+	padding-bottom: 0.625rem;
+}
+
+.compExpired {
+	border: none;
+	border-radius: 0.9375rem;
+	background: #EB5757;
+	padding: 0rem;
+	width: 1.875rem;
+	height: 1.875rem;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #FFFFFF;
+}
+
+.compCountfull {
+	padding-top: 1.688rem;
+	max-width: 3.7rem;
+}
+
+.scrollNum {
+	color: #828282;
+}
+
+.comp-count {
+	width: 0.875rem;
+	height: 1.813rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1.5rem;
+	color: #D1DDE7;
+	padding-left: 1.75rem;
+	vertical-align: middle;
+}
+
+.compName-full {
+	padding-top: 2.1rem;
+}
+
+.comp-name-full {
+	display: inline;
+	width: 12.06rem;
+	height: 1.125rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	letter-spacing: 0.02em;
+	color: #005FDF;
+}
+
+.comp-description {
+	width: 50rem;
+	height: 23.38rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.375rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.025em;
+	color: #4F4F4F;
+}
+
+.edit-option-icon {
+	color: #BDBDBD;
+	padding-right: 1.625rem;
+	cursor: pointer;
+}
+
+.embedded-comp {
+	width: 2.688rem;
+	height: 0.625rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.6875rem;
+	display: inline;
+	color: #2F80ED;
+}
+
+.footnote-comp {
+	width: 2.688rem;
+	height: 0.625rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.6875rem;
+	display: inline;
+	color: #2F80ED;
+	padding-left: 1rem;
+}
+
+.date-indicator {
+	display: flex;
+}
+
+.date-details {
+	padding-left: 0.5625rem;
+	display: grid;
+	padding-top: 0.3125rem;
+	width: 16.69rem;
+}
+
+.date {
+	/* width: 7.25rem; */
+	height: 0.8125rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.7rem;
+	color: #828282;
+}
+
+.last-update {
+	width: 206.0 .9375rem;
+	height: 0.8125rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.7rem;
+	color: #828282;
+}
+
+.ambedded-comp-details {
+	width: 82px;
+	height: 18px;
+	border: 0.0625rem solid #2F80ED;
+	box-sizing: border-box;
+	border-radius: 0.125rem;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.79rem;
+	color: #2F80ED;
+}
+
+.footnote-count {
+	width: 82px;
+	height: 18px;
+	border: 0.0625rem solid #2F80ED;
+	box-sizing: border-box;
+	border-radius: 0.125rem;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.79rem;
+	color: #2F80ED;
+}
+
+.fullView-xbrl-tag {
+	width: 7.563rem;
+	height: 1.25rem;
+	background: #BB6BD9;
+	border-radius: 0.25rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.625rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0.125rem;
+	padding-top: 0.125rem;
+	margin-right: 1.25rem;
+}
+
+.doc_statusbtn {
+	width: 6.438rem;
+	height: 1.25rem;
+	padding: 0;
+	font-size: 0.6875rem;
+}
+
+.fund_sum_label {
+	padding-top: 1.375rem;
+	/* padding-left: 2rem; */
+}
+
+.fullView-fund-summary {
+	width: 7.563rem;
+	height: 1.25rem;
+	background: #2D9CDB;
+	border-radius: 0.25rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.625rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0.125rem;
+	margin-right: 1.25rem;
+	padding-top: 0.125rem;
+}
+
+.fullView-total-funds {
+	width: 7.563rem;
+	height: 1.25rem;
+	background: #40C7AB;
+	border-radius: 0.25rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.625rem;
+	color: #FFFFFF;
+	margin-right: 1.25rem;
+	margin-top: 0.125rem;
+	padding-top: 0.125rem;
+	text-align: center;
+}
+
+.selectedIcon {
+	color: black;
+}
+
+.compDateInd {
+	top: 1.375rem;
+	padding-left: 1.875rem;
+}
+
+.component-type {
+	float: left;
+}
+
+.fullView-xbrl-details {
+	box-sizing: border-box;
+	vertical-align: middle;
+	display: flex;
+}
+
+.compFullDetails {
+	margin-bottom: 1.563rem;
+	margin-left: -0.6875rem;
+	width: 100% !important;
+}
+
+/* ------- css for  right panel document edit ------- */
+.docType-locale-exp {
+	display: flex;
+	padding-top: 0.9375rem;
+	padding-left: 1.5rem;
+}
+
+.docEdit-Type {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+	padding-bottom: 0.9375rem;
+}
+
+.docEdit-TypeDetails {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.docEdit-Locale {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+	padding-bottom: 0.9375rem;
+}
+
+.docEdit-LocaleDetails {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.docEdit-eff-exp {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+	padding-bottom: 0.9375rem;
+}
+
+.docEdit-docLocale {
+	padding-left: 3.438rem;
+}
+
+.docEdit-doc-eff-exp {
+	padding-left: 3.438rem;
+}
+
+.docEdit-eff-exp-Details {
+	display: flex;
+	margin-top: -0.625rem;
+}
+
+.docEdit-Steps {
+	padding-top: 1.563rem;
+	padding-left: 1.25rem;
+}
+
+.docSteps {
+	display: flex;
+	border-bottom: 0.0625rem solid #E0E0E0;
+	height: 1.875rem;
+}
+
+.docStepsOne {
+	padding-left: 0.9375rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.875rem;
+	color: #333333;
+	padding-right: 2.3rem;
+}
+
+.docStepsTwo {
+	padding-left: 0.9375rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.875rem;
+	color: #2F80ED;
+	padding-right: 2.3rem;
+}
+
+.docStepsThree {
+	padding-left: 0.9375rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.875rem;
+	color: #2F80ED;
+	padding-right: 2.3rem;
+}
+
+.fund-selection {
+	display: flex;
+	padding-top: 0.9375rem;
+	padding-bottom: 0.3125rem;
+}
+
+.selection-count {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #005FDF;
+	padding-left: 0.625rem;
+}
+
+.indsidefunds {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.editDocfund {
+	padding-top: 0.625rem;
+	padding-left: 1.313rem;
+	width: 29.38rem;
+}
+
+.fundSearch {
+	padding-bottom: 0.3125rem;
+}
+
+.fundSelection {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+	padding-left: 5.313rem;
+}
+
+.fund-more-icon {
+	padding-left: 2.813rem;
+	color: #828282;
+	margin-top: -0.25rem;
+}
+
+.fund-count {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #BDBDBD;
+}
+
+.fundSearchInput {
+	width: 27.5rem;
+	height: 1.5rem;
+	background: #E5E5E5;
+	border-radius: 0.125rem;
+}
+
+.fundName {
+	padding-bottom: 0.4375rem;
+	padding-right: 0.4375rem;
+	padding-left: 0.3125rem;
+}
+
+.eff-exp-input {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+	width: 95px;
+}
+
+ul.fancytree-container {
+	position: inherit; /* prevent clipping */
+}
+
+.exp-input {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+	width: 95px;
+}
+
+.fundNameDetails {
+	background: #FFFFFF;
+	border: 0.0625rem solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	margin-bottom: 0.25rem;
+	height: 5.438rem;
+	width: 27.81rem;
+}
+
+.fundNameDetailsOnSelect {
+	background: #FFFFFF;
+	border: 0.0625rem solid blue;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	margin-bottom: 0.25rem;
+	height: 5.438rem;
+	width: 27.81rem;
+}
+
+.selected {
+	background-color: transparent !important;
+}
+
+.funds-scrollbar {
+	overflow: auto;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	max-height: calc(100vh - 15.63rem);
+	min-height: 15.63rem;
+	overflow-x: hidden;
+	margin-left: -0.375rem;
+}
+
+.selectedfundSearchInput {
+	width: 27.5rem;
+	height: 1.5rem;
+	background: #E5E5E5;
+	border-radius: 0.125rem;
+}
+
+.fundType-top {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+}
+
+.asset-classFund {
+	display: flex;
+	padding-top: 0.9375rem;
+}
+
+.fundType-bottom {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+	padding-left: 17.5rem;
+	padding-top: 1.063rem;
+}
+
+.assetClass {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #000000;
+}
+
+.assetFund {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #000000;
+	padding-left: 1.563rem;
+}
+
+.fundNameContent {
+	padding-top: 0.5rem;
+	padding-left: 1.5rem;
+	padding-bottom: 0.4375rem;
+	padding-right: 1rem;
+}
+
+.docStepsOne:hover {
+	border-bottom: 0.125rem solid #005FDF;
+	width: auto;
+}
+
+.docStepsThree:hover {
+	border-bottom: 0.125rem solid #005FDF;
+	width: auto;
+}
+
+.docStepsTwo:hover {
+	border-bottom: 0.125rem solid #005FDF;
+	width: auto;
+}
+
+.editDocScrollbar {
+	margin-top: 0.375rem;
+	overflow: auto;
+	height: auto;
+	position: absolute;
+	max-height: calc(100vh - 26.63rem);
+	min-height: 18rem;
+	overflow-x: hidden;
+	margin-left: -0.375rem
+}
+
+.editDocselectedfund {
+	padding-top: 0.6875rem;
+	padding-left: 1.313rem;
+	width: 29.38rem;
+}
+
+.indsideselectedfunds {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+.selectedfund-selection {
+	display: flex;
+	padding-top: 0.9375rem;
+	padding-bottom: 0.3125rem;
+}
+
+.selectedfund-count {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #BDBDBD;
+}
+
+.selectedselection-count {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #005FDF;
+	padding-left: 0.625rem;
+}
+
+.selectedfundSelection {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.625rem;
+	color: #828282;
+	padding-left: 5.313rem;
+}
+
+.selectedfund-more-icon {
+	padding-left: 2.813rem;
+	color: #828282;
+	margin-top: -0.25rem;
+}
+
+.selectedfundName {
+	padding-bottom: 0.4375rem;
+	padding-right: 0.4375rem;
+	padding-left: 0.3125rem;
+}
+
+.selectedfundNameDetails {
+	background: #FFFFFF;
+	border: 0.0625rem solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	margin-bottom: 0.25rem;
+	height: 5.438rem;
+	width: 27.81rem;
+}
+
+.selectedfundNameDetailsOnSelect {
+	background: #FFFFFF;
+	border: 0.0725rem solid blue;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	margin-bottom: 0.25rem;
+	height: 5.438rem;
+	width: 27.81rem;
+}
+
+.selectedfundNameContent {
+	padding-top: 0.5rem;
+	padding-left: 1.5rem;
+	padding-bottom: 0.4375rem;
+	padding-right: 1rem;
+}
+
+.selectdiv {
+	position: relative;
+	float: left;
+	min-width: 230px;
+	margin: 0px 0%;
+}
+
+#changeDocStepsID option {
+	font-size: 10px;
+	color: #005FDF;
+	background-color: #ffffff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+/*To remove button from IE11 */
+select::-ms-expand {
+	display: none;
+}
+
+#NavigationDropDown:after {
+	content: '<>';
+	font: 15px "Consolas", monospace;
+	color: #828282;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 13px;
+	/*Adjust for position however you want*/
+	top: 10px;
+	padding: 0 0 0px;
+	position: absolute;
+	pointer-events: none;
+}
+
+.ui-widget-content, .ui-widget-content, .ui-datepicker .ui-datepicker-header,
+	.ui-datepicker .ui-datepicker-title, .ui-datepicker .ui-datepicker-title,
+	.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next,
+	.ui-datepicker table, .ui-state-default, .ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default, .ui-state-default {
+	background: white url('none');
+}
+
+.ui-datepicker-inline {
+	padding: 0;
+}
+
+#ui-datepicker-div {
+	width: 240px;
+}
+
+.ui-datepicker-title {
+	font-size: 15px;
+}
+
+.ui-widget-header {
+	border: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	border: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 1rem;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+	top: 23px;
+}
+
+.ui-icon, .ui-datepicker-month, .ui-datepicker-year {
+	color: #333333;
+}
+
+.ui-datepicker-calendar thead th {
+	color: #333333 !important;
+	border: none !important;
+	text-align: center !important;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500 !important;
+	line-height: normal;
+	font-size: 0.8rem;
+}
+
+a.ui-state-default, .ui-datepicker th {
+	color: #333333 !important;
+	border: none !important;
+	text-align: center !important;
+}
+
+.ui-state-default {
+	font-size: 12px;
+}
+
+.ui-datepicker {
+	width: 24.4em;
+	font-family: Roboto;
+	text-transform: uppercase;
+}
+
+.ui-datepicker td {
+	padding: 15px;
+	border: 1px solid transparent;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active
+	{
+	color: #333333 !important;
+	background: #cac6c6 !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight,
+	.ui-widget-header .ui-state-highlight {
+	background-color: green;
+	color: #e61818 !important;
+	/* padding: 15px; */
+}
+
+/* css for cart component */
+.cartDetails {
+	padding: 0px 0px 0px 8px;
+}
+
+#cartscrollbarID {
+	overflow: auto;
+	width: 98%;
+	height: auto;
+	margin-top: 10px;
+	max-height: 75%;
+	min-height: 15.63rem;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.cartNameIcon {
+	display: flex;
+	padding-top: 4px;
+	padding-left: 10px;
+}
+
+.cartDiv {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: normal;
+	color: #333333;
+	padding-top: 7px;
+	/* padding-left: 10px; */
+	/* padding-right: 155px; */
+	width: 100%;
+}
+
+.cartMoreIcon {
+	padding-top: 2px;
+}
+
+.cartCompSelected {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: normal;
+	color: #333333;
+	padding-top: 12px;
+	padding-left: 10px;
+}
+
+.cartCompDateInd {
+	top: 1.375rem;
+	display: flex;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 10px 5px 5px 5px;
+	height: 66px;
+}
+
+.cartCompDate {
+	/* width: 7.25rem; */
+	height: 0.8125rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.7rem;
+	color: #828282;
+}
+
+.cartCompDatelast-update {
+	/* width: 206.0 .9375rem; */
+	height: 0.8125rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 0.7rem;
+	color: #828282;
+}
+
+.cartCompName {
+	padding-top: 5px;
+	padding-right: 3px;
+	margin-top: -17px;
+}
+
+.favComp {
+	display: none;
+	height: calc(100vh - 13.4rem);
+}
+
+.favCompScrollUp {
+	/* 	display: none; */
+	height: calc(100vh - 7.6rem);
+}
+
+.cartCompDate-details {
+	padding-left: 0.5625rem;
+	/* display: grid; */
+	padding-top: 0.3125rem;
+	/* 	width: 16.69rem; */
+}
+
+.cartCompDatelast-update {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: normal;
+	color: #828282;
+}
+
+#cartCompNameID {
+	width: 102% !important;
+}
+
+.cartComp-name {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: normal;
+	letter-spacing: 0.02em;
+	color: #005FDF;
+	padding-left: 8px;
+}
+
+.cartCompDate {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 8px;
+	line-height: normal;
+}
+
+.cartCompDateIndOnSelect {
+	top: 1.375rem;
+	display: flex;
+	background: #FFFFFF;
+	border: 1px solid #2F80ED;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 10px 5px 5px 5px;
+	height: 66px;
+}
+
+.cartComp {
+	display: none;
+	height: calc(100vh - 13.4rem);
+}
+
+.cartCompScrollUp {
+	/* 	display: none; */
+	height: calc(100vh - 7.6rem);
+}
+
+.cartComp-type {
+	border-radius: 0.9375rem;
+	background: #C4C4C4;
+	padding: 0.3125rem;
+	width: 1.7rem;
+	height: 1.7rem;
+	border: none;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+
+.cartComp-typeOnSelect {
+	border-radius: 0.9375rem;
+	background: #2F80ED;
+	padding: 0.3125rem;
+	width: 1.7rem;
+	height: 1.7rem;
+	border: none;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+
+.favCompDateInd {
+	top: 1.375rem;
+	display: flex;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 10px 0px 5px 3px;
+	height: 66px;
+}
+
+#NavigationDropDown {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: normal;
+	background: #333333;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	padding-top: 0.75rem;
+	width: 230px;
+	text-align: left;
+}
+
+.NavDropDown-item {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	line-height: normal;
+	color: #2F80ED;
+	cursor: pointer;
+}
+
+.navDropDownMenu {
+	width: 221px;
+	height: 55px;
+	background: #FFFFFF;
+	margin-left: 5px;
+	border-radius: 2px;
+	/* padding-left: 8px; */
+	padding-top: 4.5px;
+}
+
+#NavigationDropDown::before, #NavigationDropDown::after {
+	border: none;
+}
+.cartAndFavSearchDiv {
+	padding-left: 10px;
+	padding-top: 12px;
+}
+.cartAndFavSearch {
+	font-weight: 300;
+	height: 24px;
+	width: 195px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-family: roboto;
+	font-size: 12px;
+	padding: 0px 0px 0px 5px;
+}
+.modal-font{
+	font-family: roboto;
+}
+
+.editbodyTxtArea{
+	max-height: 392px;
+	font-size: 14px;
+	width: 100%;
+	height: 180px
+}
+.icon-tooltip {
+	font-family: roboto;
+	font-weight: 500;
+	font-size: 11px;
+}
+
+
+.compDetails-fullView:hover{
+	background-color:rgba(153, 206, 245, 0.2) !important;
+}
+
+.abcd tr:hover{
+	background-color:rgba(153, 206, 245, 0.2) !important;
+}
+
+.compDetails-fullView-select{
+	border-left: 4px solid #2f80ed !important;
+    border-top: 1px solid #2f80ed !important;
+    border-bottom: 1px solid #2f80ed !important;
+    border-right: 1px solid #2f80ed !important;
+}
+
+.componentTable-td-select{
+	border-left: 3px solid #2f80ed !important;
+}
+
+.context-menu-list{
+	font-family: roboto !important;
+	font-size: 14px !important;
+	font-weight: 300 !important;
+	line-height: normal !important;
+}

@@ -1,0 +1,23 @@
+{
+	"data": [
+		{
+			"favcompDetails": "<div id='favCompDateIndID' class='favCompDateInd'><div class='cartComponent-type'><span> <input id='cartComp-typeID' type='text' class='cartComp-type' value='TX'></span></div><div class='cartCompName-exp'><div class='cartComp-name' value='Component 1'>Component 1</div><div class='cartCompDate-details'><div class='cartCompDate'>10-10-2018 - 12-10-2018</div><div class='cartCompDatelast-update'>Last updated on 10-10-2018 by dcisupportjhf </div></div></div></div>"
+		},
+		{
+			"favcompDetails": "<div id='favCompDateIndID' class='favCompDateInd'><div class='cartComponent-type'><span> <input id='cartComp-typeID' type='text' class='cartComp-type' value='TX'></span></div><div class='cartCompName-exp'><div class='cartComp-name'>Component 2</div><div class='cartCompDate-details'><div class='cartCompDate'>10-10-2018 - 12-10-2018</div><div class='cartCompDatelast-update'>Last updated on 10-10-2018 by dcisupportjhf </div></div></div></div>"
+		},
+		{
+			"favcompDetails": "<div id='favCompDateIndID' class='favCompDateInd'><div class='cartComponent-type'><span> <input id='cartComp-typeID' type='text' class='cartComp-type' value='TX'></span></div><div class='cartCompName-exp'><div class='cartComp-name'>Component 3</div><div class='cartCompDate-details'><div class='cartCompDate'>10-10-2018 - 12-10-2018</div><div class='cartCompDatelast-update'>Last updated on 10-10-2018 by dcisupportjhf </div></div></div></div>"
+		},
+		{
+			"favcompDetails": "<div id='favCompDateIndID' class='favCompDateInd'><div class='cartComponent-type'><span> <input id='cartComp-typeID' type='text' class='cartComp-type' value='TX'></span></div><div class='cartCompName-exp'><div class='cartComp-name'>Component 4</div><div class='cartCompDate-details'><div class='cartCompDate'>10-10-2018 - 12-10-2018</div><div class='cartCompDatelast-update'>Last updated on 10-10-2018 by dcisupportjhf </div></div></div></div>"
+		},
+		{
+			"favcompDetails": "<div id='favCompDateIndID' class='favCompDateInd'><div class='cartComponent-type'><span> <input id='cartComp-typeID' type='text' class='cartComp-type' value='TX'></span></div><div class='cartCompName-exp'><div class='cartComp-name'>Component 5</div><div class='cartCompDate-details'><div class='cartCompDate'>10-10-2018 - 12-10-2018</div><div class='cartCompDatelast-update'>Last updated on 10-10-2018 by dcisupportjhf </div></div></div></div>"
+		},
+		{
+			"favcompDetails": "<div id='favCompDateIndID' class='favCompDateInd'><div class='cartComponent-type'><span> <input id='cartComp-typeID' type='text' class='cartComp-type' value='TX'></span></div><div class='cartCompName-exp'><div class='cartComp-name'>Component 6</div><div class='cartCompDate-details'><div class='cartCompDate'>10-10-2018 - 12-10-2018</div><div class='cartCompDatelast-update'>Last updated on 10-10-2018 by dcisupportjhf </div></div></div></div>"
+		}
+		
+	]
+}

@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "order": "1",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "check",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "2",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "3",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },    
+     {
+      "order": "4",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "5",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "6",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+       "order": "7",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+       "order": "8",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "9",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "10",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "Risk and return",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "11",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+       "order": "12",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "Risk and return",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+     "order": "13",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "14",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "Risk and return",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "15",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "16",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "Risk and return",
+      "context":"fund summary",
+      "fund": "3 more"
+    },
+    {
+      "order": "17",
+      "type": "TX",
+      "indicator": "<span class='indicator-grp' data-original-title='' title=''><span class='yellow-indicator'></span><span class='red-indicator'></span><span class='blue-indicator'></span></span>",
+      "name": "component name",
+      "attached": "1 footnote",
+      "xbrl": "search",
+      "context":"fund summary",
+      "fund": "3 more"
+    }
+  ]
+}
